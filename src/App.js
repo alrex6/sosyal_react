@@ -1,27 +1,24 @@
-
-import React from 'react'; 
+import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
-// import OutsidePages from './MainViews/OutsidePages';
-import Pages from './MainViews/Pages';
-import {GlobalProvider} from './Context/GlobalProvider';
+import { Provider } from 'react-redux'
 
-// import {GlobalContext} from '../Context/GlobalProvider';
+import Whole from './components/whole';
+import Home from './components/home';
+import Profile from './components/profile';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import store from './store';
 
-function App() {
-	console.log('APP');
-	
-	// var pages = <OutsidePages/>
-	// console.log('userData: ', userData)
-	// if(userData.loggedIn){
-	// 	pages = <InsidePages/>
-	// }
+
+
+class App extends Component {
+  render() {
     return (
-		<GlobalProvider>
-			<Pages/>
-		
-		</GlobalProvider>
-        
+      <Whole></Whole>
+      
+     
     );
+  }
 }
 
 export default App;
