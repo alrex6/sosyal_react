@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <Whole>
         <div>bat</div>
+        <div></div>
       </Whole>
       
      
