@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <Whole>
-        <div>bat</div>
+        <div>bati ka</div>
         <div></div>
       </Whole>
       
