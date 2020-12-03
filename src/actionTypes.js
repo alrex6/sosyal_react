@@ -25,6 +25,7 @@ export const apiPath = "http://localhost:9000/api/";
 export const imgPath = "http://localhost:9000/";
 export const chatApiPath = "http://localhost:5005/api/";
 export const adsApiPath = "http://localhost:5000/api/";
+export const adsApiPath2 = "http://localhost:5000/api/";
 
 
 // export const apiPath = "http://157.230.36.219:5000/api/";
