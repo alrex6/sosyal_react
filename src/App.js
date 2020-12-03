@@ -14,7 +14,9 @@ import store from './store';
 class App extends Component {
   render() {
     return (
-      <Whole></Whole>
+      <Whole>
+        <div>bat</div>
+      </Whole>
       
      
     );
